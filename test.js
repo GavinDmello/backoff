@@ -1,6 +1,12 @@
 const BackOff = require('./backoff')
 const backoff = new BackOff()
+const chai = require('chai')
 
-console.log(backoff.getBackoff(1))
-console.log(backoff.getBackoff(5))
-console.log(backoff.getBackoff(10))
+describe('Testing backoff algorithm', () => {
+  it('backoff test', (done) => {
+  	chai.should()
+  	var val = backoff.getBackoff(5)
+  	val.should.be.a('number')
+  	done()
+  })
+})
