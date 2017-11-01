@@ -1,0 +1,19 @@
+{
+  "name": "ebackoff",
+  "version": "0.0.1",
+  "description": "Backoff implementation",
+  "main": "backoff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinDmello/backoff.git"
+  },
+  "author": "Gavin D'mello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GavinDmello/backoff/issues"
+  },
+  "homepage": "https://github.com/GavinDmello/backoff#readme"
+}
