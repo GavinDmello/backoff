@@ -3,6 +3,11 @@
 This is a very simple implementation of the expoenential backoff algorithm.
 It returns the amount of time after which the node should retry to transmit. You will have to set the delay yourself.
 
+# Installation
+
+```
+npm install ebackoff
+```
 
 ## Function
 
